@@ -30,7 +30,7 @@ while True:
 
     if x == '':
         os.system('cls')
-        IP = input('ENTER TARGER IP: ')
+        IP = input('ENTER TARGET IP: ')
         r = requests.get(f'http://ip-api.com/json/{IP}')
         data = r.json()
         print
