@@ -25,8 +25,8 @@ logo = '''
 while True:
     os.system('cls')
     print(logo)
-    os.system('title Orbit IP by P4Z')
-    x - input('Press Enter to Start!')
+    os.system('title Orbit IP by ItsBr0dyyDev')
+    x = input('Press Enter to Start!')
 
     if x == '':
         os.system('cls')
@@ -34,7 +34,7 @@ while True:
         r = requests.get(f'http://ip-api.com/json/{IP}')
         data = r.json()
         print
-        print('RESULTS\n')
+        print('IP Results\n')
         print('')
         print(f"Country: {data['country']}")
         print(f"Region: {data['regionName']}")
@@ -43,4 +43,4 @@ while True:
         print(f"ISP: {data['isp']}")
         print(f"IP: {data['query']}")
         print('')
-        pause - input('Press Enter to Proceed...')
+        pause = input('Press Enter to Proceed...')
