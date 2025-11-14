@@ -25,7 +25,7 @@ logo = '''
 while True:
     os.system('cls')
     print(logo)
-    os.system('title Orbit IP by ItsBr0dyyDev')
+    os.system('title Orbit IP Tracer by r0q')
     x = input('Press Enter to Start!')
 
     if x == '':
